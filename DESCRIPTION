@@ -1,0 +1,15 @@
+Package: enkar
+Title: R package to read the 1ka data files (.sps and .txt).
+Version: 1.0.0
+Authors@R: 
+    person("Sašo", "Karakatič", , "karakatic@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4441-9690"))
+Description: enkar is an R package designed to read data from 1ka (https://www.1ka.si/) files. 1ka does not provide an option to export data in SPSS format with all the variable information, without resorting to running SPSS scripts (.sps files). This package is intended for users who prefer not to (or cannot) use SPSS, but still require data in the SPSS format with as much information as possible, beyond what is available in regular Excel or CSV exports.
+License: use_gpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    stringr,
+    tibble,
+    haven
